@@ -59,10 +59,3 @@ This project implements a simple **Linear Regression** model to predict house pr
 
 ## 📌 Author
 Ramya — MTech Artificial Intelligence & Data Science
-`  
-3. Run all cells
-
----
-
-## 📌 Author
-Ramya — MTech Artificial Intelligence & Data Science
