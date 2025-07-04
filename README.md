@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction — Linear Regression
+# Task 1 🏠 House Price Prediction — Linear Regression
 
 This project implements a simple **Linear Regression** model to predict house prices based on:
 - Square footage (`GrLivArea`)
