@@ -57,5 +57,4 @@ This project implements a simple **Linear Regression** model to predict house pr
 
 ---
 
-## 📌 Author
-Ramya — MTech Artificial Intelligence & Data Science
+
