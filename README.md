@@ -1,62 +1,49 @@
-🏡 House Price Prediction using Linear Regression
-This project implements a simple Linear Regression Model to predict house prices based on basic housing features using the Kaggle House Prices Dataset.
+# Task 1 🏠 House Price Prediction — Linear Regression
 
-🎯 Objective
+This project implements a simple **Linear Regression** model to predict house prices based on:
+- Square footage (`GrLivArea`)
+- Number of bedrooms (`BedroomAbvGr`)
+- Number of bathrooms (`FullBath`)
+
+---
+
+## 🎯 Objective
 To predict Sale Price of houses using:
 
 🏠 GrLivArea (Above Ground Living Area)
-
 🛏 BedroomAbvGr (Number of Bedrooms)
-
 🛁 FullBath (Number of Full Bathrooms)
+---
+
+## 🚀 Tools Used
+- Python (Pandas, NumPy, Matplotlib)
+- Scikit-learn
+- Google Colab
+
+---
 
 🗂 Dataset
 Dataset Source: Kaggle: House Prices - Advanced Regression Techniques
-
 File Used: train.csv extracted from house-prices-advanced-regression-techniques.zip
 
-🛠 Tools & Libraries Used
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-scikit-learn
-
-✅ Workflow
-Data Cleaning
-
-Dropped rows with missing values in selected features.
-
-Feature Selection
-
-Selected GrLivArea, BedroomAbvGr, FullBath as input features.
-
-Model Building
-
-Applied Linear Regression using scikit-learn.
-
-Model Evaluation
-
-Evaluated using Mean Squared Error (MSE) and R² Score.
-
-Visualization
-
-Plotted:
+---
+## 📈 Project Workflow
+1. Data Cleaning
+  Dropped rows with missing values in selected features.
+2. Feature Selection
+   Selected GrLivArea, BedroomAbvGr, FullBath as input features.
+3. Model Training (Linear Regression)
+   Applied Linear Regression using scikit-learn.
+4. Model Evaluation (MSE, R²)
+   Evaluated using Mean Squared Error (MSE) and R² Score.
+5. Visualization of predicted vs actual prices
+   Plotted:
 
 Actual vs Predicted Sale Price
 
 Feature vs Predicted Sale Price graphs
 
-📊 Results
-Metric	Value
-Mean Squared Error (MSE)	 2806426667.25
-R² Score	0.6341
-
-✅ Good model performance for basic linear regression on limited features.
+---
 
 🖼️ Output Visualizations
 Actual vs Predicted Sale Prices
@@ -66,6 +53,11 @@ GrLivArea vs Predicted SalePrice
 BedroomAbvGr vs Predicted SalePrice
 
 FullBath vs Predicted SalePrice
+
 ---
+###📌 How to Run
+
+pip install pandas numpy matplotlib scikit-learn
+Run the notebook in Google Colab or Jupyter Notebook.
 
 
