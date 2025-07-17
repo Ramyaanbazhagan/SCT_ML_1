@@ -1,60 +1,71 @@
-# Task 1 🏠 House Price Prediction — Linear Regression
+🏡 House Price Prediction using Linear Regression
+This project implements a simple Linear Regression Model to predict house prices based on basic housing features using the Kaggle House Prices Dataset.
 
-This project implements a simple **Linear Regression** model to predict house prices based on:
-- Square footage (`GrLivArea`)
-- Number of bedrooms (`BedroomAbvGr`)
-- Number of bathrooms (`FullBath`)
+🎯 Objective
+To predict Sale Price of houses using:
 
----
+🏠 GrLivArea (Above Ground Living Area)
 
-## 🚀 Tools Used
-- Python (Pandas, NumPy, Matplotlib)
-- Scikit-learn
-- Google Colab
+🛏 BedroomAbvGr (Number of Bedrooms)
 
----
+🛁 FullBath (Number of Full Bathrooms)
 
-## 📈 Project Workflow
-1. Data Cleaning
-2. Feature Selection
-3. Model Training (Linear Regression)
-4. Model Evaluation (MSE, R²)
-5. Visualization of predicted vs actual prices
+🗂 Dataset
+Dataset Source: Kaggle: House Prices - Advanced Regression Techniques
 
----
+File Used: train.csv extracted from house-prices-advanced-regression-techniques.zip
 
-## ⚡ How to run
-1. Place the Kaggle dataset in your working directory  
-2. Open `# 🏠 House Price Prediction — Linear Regression
+🛠 Tools & Libraries Used
+Python
 
-This project implements a simple **Linear Regression** model to predict house prices based on:
-- Square footage (`GrLivArea`)
-- Number of bedrooms (`BedroomAbvGr`)
-- Number of bathrooms (`FullBath`)
+Pandas
 
----
+NumPy
 
-## 🚀 Tools Used
-- Python (Pandas, NumPy, Matplotlib)
-- Scikit-learn
-- Google Colab
+Matplotlib
 
----
+scikit-learn
 
-## 📈 Project Workflow
-1. Data Cleaning
-2. Feature Selection
-3. Model Training (Linear Regression)
-4. Model Evaluation (MSE, R²)
-5. Visualization of predicted vs actual prices
+✅ Workflow
+Data Cleaning
 
----
+Dropped rows with missing values in selected features.
 
-## ⚡ How to run
-1. Place the Kaggle dataset in your working directory  
-2. Open `SCT_ML_1.ipynb`  
-3. Run all cells
+Feature Selection
 
+Selected GrLivArea, BedroomAbvGr, FullBath as input features.
+
+Model Building
+
+Applied Linear Regression using scikit-learn.
+
+Model Evaluation
+
+Evaluated using Mean Squared Error (MSE) and R² Score.
+
+Visualization
+
+Plotted:
+
+Actual vs Predicted Sale Price
+
+Feature vs Predicted Sale Price graphs
+
+📊 Results
+Metric	Value
+Mean Squared Error (MSE)	 2806426667.25
+R² Score	0.6341
+
+✅ Good model performance for basic linear regression on limited features.
+
+🖼️ Output Visualizations
+Actual vs Predicted Sale Prices
+
+GrLivArea vs Predicted SalePrice
+
+BedroomAbvGr vs Predicted SalePrice
+
+FullBath vs Predicted SalePrice
 ---
 
 
